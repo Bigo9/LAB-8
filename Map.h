@@ -11,7 +11,6 @@ private:
 public:
       Map(int width, int height, Player* player);
         ~Map();
-
      void draw() const;
     bool isWall(int x, int y) const;
 
