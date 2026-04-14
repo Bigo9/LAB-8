@@ -2,7 +2,7 @@
 #include <iostream>
 
 Player::Player(std::string name, int health, int attackPower)
-    : name(name), health(health), attackPower(attackPower), x(0), y(0) {
+    : name(name), health(health), attackPower(attackPower), x(0), y(0) , inventory(10) {
     std::cout << "Player " << name << " created." << std::endl;
 }
 
